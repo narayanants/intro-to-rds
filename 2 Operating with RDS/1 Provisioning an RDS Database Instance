@@ -1,0 +1,133 @@
+Provisioning an RDS Database Instance
+=====================================
+
+* Provising the RDS Instance
+* Database Engine
+    - Oracle
+    - SQL Server
+    - Aurora
+    - Postgres
+    - Mysql
+    - MariaDB
+
+EB Engine Version:
+==================
+
+    - 10.6
+
+Use Case:
+==========
+
+    - Production - Multi AZ
+    - Dev/Test - 20 GB 
+
+Licensing Model:
+===============
+
+    - Oracle DB Only
+
+DB Instance Class:
+===================
+
+    - EC2 instance type
+    - T2/T3 Family (Burstable Instance)
+    - M3/M4 Family (General Purpose Instances)
+    - R3/R4 Family (Memory Optimized Instances)
+
+Multi AZ Deployment:
+====================
+
+    - HA 
+    - Primary and Standby in different AZ.
+    - Synchronous Replication
+
+Storage Types and Allocation:
+=============================
+
+    - EBS Volumes to store data and logs 
+    - Aurora uses proprietary storage system
+
+    GP2- General Purpose (SSD)
+    IO1 - Provisioned IOPS (SSD)
+    Magnetic - Legacy Databases 
+
+
+Pricing:
+========
+
+    - DB Engine
+    - License Model
+    - DB Instance Class
+    - Multi AZ Deployment
+    - Storage Types and Allocation
+
+
+DB Instance Identifier:
+=======================
+
+    - Identifies the DB Instance
+    - Unique for your account across the region
+
+Credentials:
+=============
+
+    - Master user
+    - Do not use the Credentials in the application
+
+Networking configuration:
+=========================
+
+    - VPC - Virtuap Private Cloud
+    - Subnet Group - which subnets and IP Ranges the instance can use in the VPC you selected
+    - Public Accessibility - DB instance accessible  from outside the VPC.
+    - AZ - any preference to AZ.
+    - VPC Security Group - Any preference for AZ
+    - DB name - Default DB To create
+    - DB Port - TCP/IP Port of the DB
+    - DB Parameter Group - set of Parameter to manage engine configuration
+    - DB Option Group - optional functionality to enable on the DB instance
+    - Encryption - Encryption at rest for your DB instance
+    - Enhanced Monitoring - allow you to see how different processes or threads use the CPU.
+
+
+Backups:
+========
+
+    - Backup Retention Period (0 -35)
+    - Backups Window - Daily time range when automated backups occur.
+    - Copy your tags to snapshots
+
+Maintenance:
+============
+
+    - Auto Minor Version upgrade - backups - Daily window
+    - Maintenance Window - Patching and Upgrading - Once a week window
+
+DB ENgine Upgrades:
+======================
+
+    - DB engine upgrade require runtime
+    - Minor version upgrades - automatically or manually applied
+    - Major version upgrades - manually applied
+    - Version deprecation 
+
+Hands on lab:
+=============
+
+    - Postgres 10.6-R1
+    - Single node (for development)
+    - 25 GB SSD
+    - Publicly accessible
+    - Encryption at rest
+    - Backup Retention for 5 days
+        - Backup retention at 10pm everyday
+    - Auto upgrade minor versions
+    - Maintenance Window at Sunday 11 PM
+
+
+
+
+
+
+
+
