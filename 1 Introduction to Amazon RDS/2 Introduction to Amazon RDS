@@ -1,0 +1,53 @@
+Introduction to Amazon RDS
+==========================
+
+* What is RDS?
+* Core Terminology
+
+Operating an RDS Instance:
+===========================
+
+* Setting up a DB Instance
+* Pricing
+* Scaling
+
+
+Security and Monitoring:
+========================
+
+* approaches to secure your DB
+* Monitoring services and tools available
+
+
+High Availability and Read replicas:
+=====================================
+
+* Deep look into Multi-AZ  works
+* How we can leverage Read Replicas for Performance
+
+
+Backup and Recovery:
+=====================
+
+    * Options available for backup in AWS
+    * Approaches to restoring a backup
+
+Aurora and Aurora Serverless:
+==============================
+
+* Cloud Native database engine in RDS
+* How they work?
+
+
+
+Prerequisites:
+===============
+
+* Basic understanding of RDBMS
+* An AWS Account
+* Basic understanding of 
+
+    - AWS Lambda
+    - Security Groups, VPCs and Subnets
+
+
