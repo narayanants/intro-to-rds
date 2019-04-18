@@ -1,0 +1,71 @@
+What is Amazon RDS?
+===================
+
+* Relational Database Servce
+* Managed RDBMS in AWS
+* Flexibility in Cloud
+
+
+Six Flavours:
+=============
+
+    Commerical:
+        - Oracle
+        - SQL Server
+    
+    Open Source: 
+        - MariaDB
+        - PostgreSQL
+        - MySQL
+        
+    Cloud Native (Designed by Amazon)
+        - Aurora
+
+Aim of RDS:
+===========
+
+    - Lower Total cost of Ownership
+    - Focus on core business
+    - Leverage the maturity of AWS Operations
+
+
+Self hosted vs RDS:
+==================
+
+ - Self Hosted 
+    - Provision the HArdware
+    - Configure and Harden your OS
+    - Install,setup and cluster yourDB
+    - Create DB
+    - Load your Data
+    - Tune Queries
+    - Design and implement backup strategies
+    - Perform Patching
+    - Perform software and hardware upgrades
+    - Deal with Failures
+
+ - Managed by RDS:
+ =================
+
+    - Create your DB
+    - Load your Data
+    - Tune your Queries
+
+Provisioning your DB:
+=====================
+
+- DB Engine
+- License Model
+- DB Engine Version
+- DB  Instance Class
+- Multi- AZ Deployment
+- Read Replicas
+- Storage Type & Size
+- Backups
+- Monitoring 
+- Maintenance window
+
+
+No Shell access to DB Instance
+
+
