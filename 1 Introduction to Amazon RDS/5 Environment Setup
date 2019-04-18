@@ -1,0 +1,17 @@
+Environment Setup
+=================
+
+- Download PgAdmin
+- Setup AWS Environment
+    - A new VPC with public and private subnets
+    - Created RDS Subnet groups for public and private
+    
+Setup:
+========
+
+- Create a VPC with 2 public and private subnets
+- public subnets route table associate with Internet Gateway
+- private subnets route table associate with NAT Gateway
+
+
+    
