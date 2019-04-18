@@ -1,0 +1,57 @@
+Terminology
+===========
+
+Database Instance:
+==================
+
+    - Isolated DB env in the cloud
+    - Can contain multiple DB Instance
+    - Can Contain Multiple user-created database Instance
+
+DB Engine Type:
+===============
+
+    MySQL
+    PostgreSQL
+    MariaDB
+    Oracle
+    SQL Server
+    Aurora
+
+DB Instance class:
+==================
+
+    - similar to EC2 instance Type
+    
+
+Multi AZ:
+==========
+
+    - High Availability
+    - AZ - Availability Zone
+    - DB in hosted in 2 AZ
+
+Read Replicas:
+==============
+
+    - A node which is part of the DB Instance
+    - Handles only Read Queries
+    - Reduces burden in Primary host
+
+Primary Host:
+============
+
+    - Node within a DB Instances that handles w/r traffic from the client
+
+Secondary Host:
+===============
+
+    - Node that is Sync updated
+
+Aurora:
+=======
+
+    MySQL and PostgreSQL compatbile Relational DB
+    Natively built for AWS
+    Significant Performance improvement
+
