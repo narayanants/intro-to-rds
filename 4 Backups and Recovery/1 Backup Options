@@ -1,0 +1,40 @@
+Backup Options
+===============
+
+2 options:
+
+    - Automated backups
+    - Manual Snapshots
+
+
+Automated Backup:
+=================
+
+    - Automatic daily  EBS snapshot from  secondary instance
+    - Backups are stored in RDS owned S3 buckets
+    - Copy Snapshot to another region
+
+
+Settings:
+=========
+    
+    - Backup window - when to take backup`
+    - Retention Period - How long the backup should be kept (1-35 days) (7 days)
+
+Manual Snapshot:
+=================
+
+    - Taken from secondary host
+    
+
+Important notes for Backups:
+===========================
+
+    - First snapshot of a DB instance contains all the data.
+    - Subsequent snapshots are incremented.
+
+Performance impact of taking a backup:
+=======================================
+
+    - Few IO impact (Single AZ)
+    - Backup is taken over secondary (no impact)

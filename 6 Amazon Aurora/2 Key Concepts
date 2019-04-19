@@ -1,0 +1,36 @@
+Key Concepts
+============
+
+- Aurora DB Cluster
+
+    - 1 or more DB instance and a cluster volume
+    - 2 types of DB instance
+
+        - Primary - Read/write
+        - Aurora Replica- only Read
+
+- Aurora DB Connections
+
+    - DB Connections through endpoints
+    - Several types of Aurora endpoints
+
+        - Cluster Endpoint - Connects to current Primary DB instance - Write Ops
+        - Reader Endpoint - Connects to Replica - Read Ops  - One Reader endpoints per cluster
+
+            - Load balacing for Read only connections to the DB
+
+        - Custom Endpoint - set of DB instances that you choose
+                          - When you connect to the endpoint, Aurora performs Load balacing and choose one the instances in the group to handle the connection
+
+        - Instance Endpoint 
+
+
+    Aurora Global Databases:
+    =========================
+
+        - Primary Region - Read & Write 
+        - Secondary Region - Read Only (1 second and use dedicated infra)
+
+        In case of failover
+            - Secondary Region can be promoted
+            3 

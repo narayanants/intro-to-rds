@@ -1,0 +1,17 @@
+Hands on Lab
+=============
+
+    - Provision a Postgres Aurora Cluster
+    - Enable Multi AZ
+    - Connect to different endpoints
+    - Validate Reader Enpoints
+
+    - r4 instance class
+    - Cluster endpoints - Primary node
+    - Reader Endpoints  - Read replicas
+
+    Write possbile only on
+
+        - Cluster Endpoints
+        - DB Primary node
+        

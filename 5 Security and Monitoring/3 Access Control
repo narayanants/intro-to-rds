@@ -1,0 +1,15 @@
+Access Control
+===============
+
+    - Managing the DB
+    - Use IAM to control who can perform action on the RDS instance
+    - Do not use AWS root credentials
+    - MFA for extra protection
+
+Grant access to within the DB
+
+    - Same as on premise
+    - Do not use master credentials
+    - Integrated Security
+
+    

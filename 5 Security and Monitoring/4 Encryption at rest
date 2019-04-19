@@ -1,0 +1,24 @@
+
+Encryption at rest
+==================
+
+    - Free of cost
+    - Enabled by AWS KMS
+    - AES 256 algo
+    
+
+    - Encryption is replicated
+    - Access to keys are logged
+    - Encryption at REST
+    - Encrypt once
+    - Two Tier Encryption
+
+    Benefits:
+    ===========
+
+        - Limit the risk of compromised keys
+        - Management
+        - Performance
+        - Key Rotation
+
+        

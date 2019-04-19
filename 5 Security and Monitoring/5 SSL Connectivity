@@ -1,0 +1,17 @@
+SSL Connectivity
+================
+
+- RDS <=> SSL <=> Application
+
+Secure an RDS Instance:
+=======================
+
+    - Not Publicly accessible
+    - Within in a private subnet
+    - Data is encrypted at REST
+    - Accepts only SSL connections
+    - Security Group Locked down
+
+
+    - Use Lambda to test Connectivity
+    

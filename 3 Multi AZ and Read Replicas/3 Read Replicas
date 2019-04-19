@@ -1,0 +1,16 @@
+Read Replicas:
+==============
+
+* Read only database instance
+* async replication to read replica
+* Read Replica is eventually consistent
+
+
+When to use Read Replicas:
+==========================
+
+    - Scaling
+    - Source DB Unavailable
+    - Reporting & Data Warehouse 
+    - Disaster Recovery
+    - Lower Latency

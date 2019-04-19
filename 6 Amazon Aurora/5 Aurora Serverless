@@ -1,0 +1,40 @@
+Aurora Serverless
+=================
+
+    - Built on same foundation of Amazon Aurora
+    - MySQL and PostgreSQL compatibility
+
+    Align Aurora with Serverless model
+
+        - Dont think about instances
+        - Pay only for what you use
+
+    how?
+
+        - Aurora Storage optimization
+        - Decouples the DB host from the application
+
+
+
+How does it work?
+
+    - VPC
+    - Aurora Serverless in another VPC
+    - Connect them both using VPC Endpoints
+
+
+Capacity Management:
+=====================
+
+    - No more DB Instance classes
+    - Aurora Compute Unit (ACU)
+    - ACU provides an amount of memory and CPU
+    - Set Min and Max amount of ACU for your DB
+
+Aurora Serverless will automatically scale as needed:
+=====================================================
+
+    - CPU and Connections Scaling Rules
+    - Can automatically scale down to 0 when inactive
+    - Manual scaling is available
+

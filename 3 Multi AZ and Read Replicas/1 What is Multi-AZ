@@ -1,0 +1,20 @@
+What is Multi-AZ?
+==================
+
+* Multi Availability Zones ( High Availability)
+* Isolated distinct DC
+* Enterprise grade fault tolerant solution.
+    - Leverage another AZ for secondary host
+    - Primary host is replicated to secondary host
+
+* Secondary host will not improve the performance of the DB
+* Secondary Host does not handle active write traffic
+* Used for failover scenarios
+* Writes to Multi-AZ DB are slightly slower.
+
+* Twice the cost of Single AZ config\
+* Improves backups
+
+
+
+

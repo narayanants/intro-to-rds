@@ -1,0 +1,28 @@
+Restoring your backups
+======================
+
+- Restoring a backup, create a new DB instance
+- Retain the parameter group and Security Group
+- Changing the storage type will slow down the process.
+
+
+To restore a snapshot:
+======================
+
+    - From snapshots menu option
+
+To restore point in time:
+=========================
+
+    -  From the DB Instance or Automated backups
+    - Specify point in time to restore them
+
+Why is it too slow to restore?
+===============================
+
+    - New volumes are hyderated from S3
+    - Blocks are pulled in a needed.
+    - Full performance requires the volume to warm up
+
+    - Increase IO for better performance
+

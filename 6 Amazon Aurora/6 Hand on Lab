@@ -1,0 +1,8 @@
+Hands on Lab:
+=============
+
+    - Provision Aurora serverless
+    - Engine MySQ 5.6
+    - Must inside a VPC
+    - Test connection with a Lambda inside a VPC
+    

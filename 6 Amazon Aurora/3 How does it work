@@ -1,0 +1,27 @@
+How does it work?
+==================
+
+- Each write is written to 6 independent location across the region
+- 4 confirmed writes acknowlege successfully
+- Repair the corrupted using aother node
+
+
+Performance:
+============
+    - Postgres is 2 -3 times faster than normal
+    - MySQL is 5 times faster
+    - better at scale
+    - Take it with a grain of salt
+
+Storage is 64 TB
+Continuous backup to S3
+
+
+Provision a Aurora Postgres Cluster:
+====================================
+
+    - Provision a Postgres Aurora Cluster
+    - Enable Multi AZ
+    - Connect to different endpoints
+    - Validate Reader Enpoints
+    

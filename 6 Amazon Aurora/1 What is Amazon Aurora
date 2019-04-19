@@ -1,0 +1,39 @@
+What is Amazon Aurora?
+======================
+
+
+    - Monolithic 
+    - Very Coupled layers
+    - SQL, Transactions, Storage, Caching, Logging
+    - Slow together
+    - Does not scale Independently
+
+
+    Aurora:
+    =======
+        - reimagined the DB in the cloud
+        - Broke apart the Monolithic part
+        - To enable the DB that can scale out 
+        - Self- healing
+        - Leverage the distributed and elastic nature of the cloud
+
+        - Aurora Shared storage
+
+        
+        Application shared across 3 AZ
+        - Master Node
+        - Secondary
+        - Read Replica
+
+
+        - Aurora moved the logging and Storage layers from RDS
+
+        - AWS rebuilt Logging and Storage layers
+            -S3, SWF, DynamoDB, Route53,EC2 and VPCs
+        - Managed by RDS
+        - Cloud optimized Relation DB
+        - Not a custom in-house DB by Amazon
+        - MySQL and PostgreSQL Compatbile
+
+        Launched in 2014
+        Fastest growing service in AWS history

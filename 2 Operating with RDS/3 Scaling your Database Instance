@@ -1,0 +1,27 @@
+Scaling your Database Instance
+==============================
+
+* Scale Compute or memory vertically
+* Scale EBS Storage
+* Scale With Read Replicas
+
+Example:
+=========
+
+* Modify the RDS Instance 
+* Change the DB Instance class
+
+When to apply change?:
+========================
+
+    - Immediately
+    - During Maintenance Window
+
+Before you scale:
+=================
+
+    * Correct Licensing Models
+    * When to apply the change
+    * Storage/CPU are decoupled
+    * Multi- AZ
+    * Single AZ

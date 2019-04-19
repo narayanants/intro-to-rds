@@ -1,0 +1,13 @@
+Network Isolation
+===================
+
+- Network Isolation is the fundamental layer in your security model
+- AWS enables this using VPC
+
+    - Private Subnet - NAT Gateways, Routing Tables, NACL's
+    - Security Group - Firewall protection
+    - Public Accessibility
+    - Classlink
+    - Direct Connect
+    - VPC Peering
+    

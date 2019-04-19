@@ -1,0 +1,17 @@
+Securing your Database Instance
+===============================
+
+* Securing in DB Instance
+
+    - DB is the heart of the company
+    - RDS is secure by default
+
+
+Security should be built within layers
+
+        - Network Isolation
+        - IAM for access control
+        - Encryption at REST
+        - SSL for DB connectivity
+
+    

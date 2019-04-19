@@ -1,0 +1,7 @@
+Hands on Lab:
+==============
+
+    - create parameter group
+    - Enforce SSL
+    - Security Group Inbound and Outbound rules are set to the Private Subnet Private IPs
+    - Create a IAM Role with AWSLambdaVPCAcessExecutionRole

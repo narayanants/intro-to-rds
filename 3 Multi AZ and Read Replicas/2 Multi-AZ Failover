@@ -1,0 +1,19 @@
+Multi-AZ Failover
+=================
+
+* When failover occurs?
+
+    - AZ outage occurs
+    - Primary DB instance fails
+    - DB Instance class changed
+    - Software Patching
+    - Manual Failover
+
+Notes for Failover:
+===================
+
+    - 1-2 minutes 
+    - Beware of DNS caching
+    - Best to test your application
+    - Reboot with failover option in console
+    

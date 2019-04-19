@@ -1,0 +1,62 @@
+Monitoring RDS
+==============
+
+ - Reliable
+ - Available
+ - Peformant Application
+
+
+ - DBs are the heart of most applications
+ - Monitoring should foucs on tracking key metrics
+
+ RDS send metrics to CloudWatch
+
+    - 15- 18 metrics
+    - Visualize them in RDS console or CloudWatch console
+    - Access the data directly via CloudWatch APIs
+    - Send data to other monitoring tools
+
+    CloudWatch Alarms can allow you to trigger actions based on these metricss
+
+
+5 main metrics:
+================
+
+     - CPU (CPUUtilization, CPUCreditBalance)
+     - Storage (FreeStorageSpace)
+     - NetworkTraffic (NetworkReceiveThroughput, NetworkTransmitThroughput)
+     - DB Connections (DatabaseConnections)
+     - IOPS (ReadIOPS,WriteIOPS)
+
+Enhanced Monitoring:
+====================
+    - Hosts level metrics
+        - Granularity as low as 1 second (default 60 seconds)
+        - 50 additional metrics in CloudWatch
+
+        Standard Monitoring - Hypervisor
+        
+
+Performance Insights:
+=====================
+
+    - Insights to DB Performance
+    - Identifies DB Bottlenecks
+    - Analyze SQL Queries,Hosts and Users
+    - How they are impacting the server
+    - Its free
+    - Not available in t2 instance class
+
+
+Other Monitoring Tools:
+=======================
+
+    - RDS Events
+    - AWS Config - Records and Evaluates changes to configuration
+    - AWS CloudTrail - Audit log of API calls made to the RDS
+    - AWS Trusted Advisor
+    
+
+
+
+
